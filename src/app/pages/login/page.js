@@ -11,7 +11,7 @@ export default function Login() {
   const handleLogin = async (e) => {
     e.preventDefault();
     // Add your authentication logic here
-    if (email === "admin@upcheck.com" && password === "admin123") {
+    if (email === "admin@upcheck.in" && password === "ShrimpMaster@2024") {
       router.push('/dashboard');
     } else {
       setError('Invalid email or password');
