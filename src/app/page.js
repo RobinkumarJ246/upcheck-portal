@@ -12,7 +12,7 @@ export default function Login() {
     e.preventDefault();
     // Add your authentication logic here
     if (email === "admin@upcheck.in" && password === "ShrimpMaster@2024") {
-      router.push('/home');
+      router.push('/pages/home');
     } else {
       setError('Invalid email or password');
     }
